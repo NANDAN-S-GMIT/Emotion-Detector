@@ -17,7 +17,7 @@ The Emotion Detector enables users to input text and get instant feedback about 
 - 😂 Amusement
 - 😕 Confusion
 - 😐 Neutral
-- [![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://emotion-detector-mo89.onrender.com)
+- 
 - [![View Live](https://img.shields.io/badge/View-Live%20App-blue?style=for-the-badge)](https://emotion-detector-mo89.onrender.com)
 
 
@@ -188,4 +188,5 @@ If you found this project useful or interesting:
 - Connect with me for collaboration
 
 ---
+
 
