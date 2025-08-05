@@ -26,6 +26,10 @@ The Emotion Detector enables users to input text and get instant feedback about 
 - 🎨 Clean, responsive frontend UI with emoji-based buttons
 - ⚙️ Backend powered by Flask and Python
 - 🔁 JavaScript-powered asynchronous API interaction
+- 🧪 Unit tested for reliability and robustness
+- 🧰 Proper error handling and status code management
+- 🧱 Structured packaging with `__init__.py`
+- 🧼 Static code analysis with 10/10 Pylint score
 - 🖥️ Fully responsive and mobile-friendly layout
 - 🚀 Deployment-ready for platforms like Render or Heroku
 
@@ -37,8 +41,9 @@ The Emotion Detector enables users to input text and get instant feedback about 
 |------------|-----------------------------|
 | Frontend   | HTML, CSS, JavaScript       |
 | Backend    | Python, Flask, Gunicorn     |
-| APIs/NLP   | Flask logic / NLP libraries |
+| APIs/NLP   | Flask logic / Watson NLP    |
 | Hosting    | GitHub, Render-ready        |
+
 
 ---
 
@@ -47,14 +52,18 @@ The Emotion Detector enables users to input text and get instant feedback about 
 ```
 Emotion-Detector/
 ├── app.py
-├── templates/
-│   └── index.html
+├── server.py
+├── emotion_detector/
+│   ├── __init__.py
+│   └── emotion_detection.py
+├── tests/
+│   └── test_emotion_detection.py
 ├── static/
 │   ├── css/
 │   ├── js/
 │   └── images/
-├── requirements.txt
-├── Procfile
+├── templates/
+│   └── index.html
 └── README.md
 ```
 
@@ -62,10 +71,18 @@ Emotion-Detector/
 
 ## 📸 Screenshots
 
-> *(Include actual screenshots in the `static/images` folder and update the paths below)*
+> *(Below are visuals from the application in action. Each demonstrates functionality, design, and user interaction.)*
+
+<br>
 
 ![Home Page](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector1.png?raw=true)
+
+<br>
+
 ![Analyzing Page](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector2.png?raw=true)
+
+<br>
+
 ![Detection Result](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector3.png?raw=true)
 
 ---
@@ -117,22 +134,19 @@ To deploy this project on **Render**:
 | Field          | Value                          |
 |----------------|-------------------------------|
 | Build Command  | `pip install -r requirements.txt` |
-| Start Command  | `gunicorn app:app`             |
+| Start Command  | `Python Server.py`             |
 | Runtime        | Python                         |
 
 ---
 
 ## 📦 Requirements
 
-`requirements.txt`
-
 ```
 Flask
 flask-cors
-gunicorn
+pylint
 ```
-
-Add more packages as needed (e.g., `textblob`, `transformers`, etc.)
+Add more packages as needed (e.g., `textblob`, `ibm-watson`, `unittest`, etc.)
 
 ---
 
@@ -170,5 +184,3 @@ If you found this project useful or interesting:
 - Connect with me for collaboration
 
 ---
-
-
