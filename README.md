@@ -64,8 +64,9 @@ Emotion-Detector/
 
 > *(Include actual screenshots in the `static/images` folder and update the paths below)*
 
-![Home Page](static/images/screenshot-home.png)
-![Detection Result](static/images/screenshot-result.png)
+![Home Page]([static/images/screenshot-home.png](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector1.png))
+![Analyzing Page]([static/images/screenshot-home.png](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector2.png))
+![Detection Result]([static/images/screenshot-result.png](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector3.png))
 
 ---
 
@@ -169,3 +170,4 @@ If you found this project useful or interesting:
 - Connect with me for collaboration
 
 ---
+
