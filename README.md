@@ -64,9 +64,9 @@ Emotion-Detector/
 
 > *(Include actual screenshots in the `static/images` folder and update the paths below)*
 
-![Home Page]([static/images/screenshot-home.png](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector1.png))
-![Analyzing Page]([static/images/screenshot-home.png](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector2.png))
-![Detection Result]([static/images/screenshot-result.png](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector3.png))
+![Home Page](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector1.png?raw=true)
+![Analyzing Page](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector2.png?raw=true)
+![Detection Result](https://github.com/NANDAN-S-GMIT/Emotion-Detector/blob/main/EmotionDetector3.png?raw=true)
 
 ---
 
@@ -170,4 +170,5 @@ If you found this project useful or interesting:
 - Connect with me for collaboration
 
 ---
+
 
